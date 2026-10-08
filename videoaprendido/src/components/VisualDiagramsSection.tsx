@@ -1,7 +1,8 @@
 import React from 'react';
 import { COMPARISON_TABLE } from '../data/assignmentData';
 import { ArrowDown, Shield, Database, Smartphone, Server, Check, Lock, ShieldAlert } from 'lucide-react';
-
+import supabaseTableImg from '../assets/images/supabase_table_editor_products_1791471118584.jpg';
+import thunderClientImg from '../assets/images/thunder_client_api_request_1791471150356.jpg';
 export const VisualDiagramsSection: React.FC = () => {
   return (
     <section id="recursos-visuales" className="py-10 border-b border-slate-800/80 relative">
@@ -30,8 +31,8 @@ export const VisualDiagramsSection: React.FC = () => {
             </p>
             <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-950 shadow-[0_0_20px_rgba(0,0,0,0.5)]">
               <img
-                src="/src/assets/images/supabase_table_editor_products_1791471118584.jpg"
-                alt="Tabla products en el Table Editor de Supabase"
+                src={supabaseTableImg}
+                src={thunderClientImg}
                 className="w-full h-auto object-cover max-h-[440px]"
                 loading="lazy"
                 referrerPolicy="no-referrer"
