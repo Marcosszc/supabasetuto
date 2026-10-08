@@ -1,0 +1,6 @@
+{
+  "name": "Lo que aprendí del video - Trabajo Práctico BTI",
+  "description": "Trabajo Práctico de Software y Desarrollo Web sobre el tutorial de Supabase de Fazt Code para el 2.º BTI del Colegio Nacional EMD Asunción Escalada. Incluye cuestionario resuelto de 12 preguntas, conceptos, simulación de RLS y API REST.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
